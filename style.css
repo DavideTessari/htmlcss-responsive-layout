@@ -202,14 +202,15 @@ header ul {
     background-color: #9792e4;
     position: absolute;
     bottom: 20px;
-    translate: 50%;
+    translate: -50%;
     vertical-align: middle;
     border-color: transparent;
+    padding: 17px;
 }
 
 .plannings i {
     vertical-align: middle;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .plannings .col {
@@ -239,6 +240,14 @@ header ul {
     padding: 40px;
 }
 
-.app {
+/* .app {
     margin-top: 200px;
+} */
+/*-------------------
+   RESPONSIVE
+-------------------*/
+@media screen and (max-width: 992px) {
+    .plannings .col {
+        width: 100%;
+    }
 }
