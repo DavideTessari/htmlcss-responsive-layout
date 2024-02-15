@@ -55,14 +55,14 @@ ul {
     margin-top: 20px;
     padding: 5px 50px;
 }
-.btn-secondary {
+/* .btn-secondary {
     
 }
 .btn-third {
     
-}
+} */
 
-/*-------------------
+/*------------------
     HEADER
 -------------------*/
 header {
@@ -83,10 +83,31 @@ header ul {
     margin-right: 10px;
 }
 
+#bars {
+    display: none;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+    line-height: 75px;
+}
+
 .logo {
     display: flex;
     align-items: center;
     margin-left: 10px;
+}
+
+/*-------------------
+   RESPONSIVE
+-------------------*/
+@media screen and (max-width: 992px){
+    header ul  {
+        display: none;
+    }
+
+    #bars {
+        display: block;
+    }
 }
 
 /*-------------------
@@ -113,7 +134,7 @@ header ul {
 #intro .phone img {
     position: absolute;
     bottom: 0;
-    right: 30px;
+    right: 40px;
     max-width: 200px;
     max-height: 270px;
 }
@@ -137,5 +158,87 @@ header ul {
 }
 
 /*-------------------
+   RESPONSIVE
+-------------------*/
+@media screen and (max-width: 992px) {
+    #intro .row {
+        display: block; 
+    }
+
+    #intro .col {
+        margin-top: 20px;
+    }
+
+    #intro .phone {
+        position: static; 
+    }
+}
+
+@media screen and (max-width: 768px){
+    #intro  .col{
+        width: 100%;
+    }
+}
+
+/*-------------------
    SECTION PLANNING
 -------------------*/
+.plannings{
+    margin-top: 80px;
+    background-color: #9792e4;
+}
+
+.plannings .card {
+    background-color: #ffffff;
+    position: relative;
+    height: 100%;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.circle {
+    border-radius: 100%;
+    background-color: #9792e4;
+    position: absolute;
+    bottom: 20px;
+    translate: 50%;
+    vertical-align: middle;
+    border-color: transparent;
+}
+
+.plannings i {
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.plannings .col {
+    width: 50%;
+    padding: 50px;
+}
+
+.plannings h3 {
+    margin-top: -15px;
+    font-size: 25px;
+}
+
+.plannings p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.strategic-planning {
+    color: #ffffff;
+}
+
+.strategic-planning img {
+    margin-bottom: 110px;
+}
+
+.app img {
+    padding: 40px;
+}
+
+.app {
+    margin-top: 200px;
+}
