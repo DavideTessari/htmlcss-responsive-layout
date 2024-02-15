@@ -1,5 +1,5 @@
 /* ----------------
-    Reset
+    RESET
 ---------------- */
 * {
     margin: 0%;
@@ -12,22 +12,29 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
 /* ----------------
-    General
+    GENERAL
 ---------------- */ 
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .col {
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .grow {
@@ -38,10 +45,15 @@ img {
     BUTTONS
 -------------------*/
 .btn {
-    
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 5px 10px;
 }
 .btn-primary {
-    
+    color: white;
+    background-color: #0084fd;
+    margin-top: 20px;
+    padding: 5px 50px;
 }
 .btn-secondary {
     
@@ -52,4 +64,78 @@ img {
 
 /*-------------------
     HEADER
+-------------------*/
+header {
+    background-color: #0084fd;
+    height: 75px;
+}
+    
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    line-height: 75px;
+    gap: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/*-------------------
+    SECTION INTRO
+-------------------*/
+#intro {
+    margin-top: 35px;
+}
+
+#intro .col {
+    width: calc(100% / 3);
+    margin-top: 20px;
+}
+
+#intro .card {
+    background-color: #b5ddff;
+    position: relative;
+    height: 100%;
+    color: #0084fd;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#intro .phone img {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    max-width: 200px;
+    max-height: 270px;
+}
+
+.i-size i{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.i-size {
+    text-align: center;
+}
+
+#intro p {
+    color: #5a6e7f;
+    margin-top: 15px;
+}
+
+.btn i{
+    margin-right: 5px;
+}
+
+/*-------------------
+   SECTION PLANNING
 -------------------*/
