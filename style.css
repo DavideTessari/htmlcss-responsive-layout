@@ -251,3 +251,49 @@ header ul {
         width: 100%;
     }
 }
+
+/*-------------------
+SECTION TESTIMONIALS
+-------------------*/
+#testimonials {
+    margin-top: 100px;
+}
+
+#testimonials .text {
+    text-align: center;
+}
+
+#testimonials h1 {
+    color: #9792e4;
+    margin: 20px;
+}
+
+#testimonials .card {
+    width: 100%;
+    background-color: #9792e4;
+    position: relative;
+    padding: 20px;
+    border-radius: 40px;
+    color: #ffffff;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#testimonials img {
+    max-width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/*-------------------
+   RESPONSIVE
+-------------------*/
+@media screen and (max-width: 768px){
+    #testimonials  .card {
+        display: block;
+        text-align: center;
+        padding: 30px;
+    }
+}
