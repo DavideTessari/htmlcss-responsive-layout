@@ -88,9 +88,7 @@ header a {
 header ul {
     display: flex;
     line-height: 75px;
-    gap: 20px;
     font-size: 14px;
-    margin-right: 10px;
 }
 
 #bars {
@@ -210,7 +208,6 @@ header ul {
 
 .plannings .card {
     background-color: #ffffff;
-    position: relative;
     height: 100%;
     padding: 20px;
     border-radius: 40px;
@@ -220,12 +217,10 @@ header ul {
 .circle {
     border-radius: 100%;
     background-color: #9792e4;
-    position: absolute;
-    bottom: 20px;
-    translate: -50%;
     vertical-align: middle;
     border-color: transparent;
-    padding: 17px;
+    padding: 14px 17px;
+    margin-top: 15px;
 }
 
 .plannings i {
@@ -241,6 +236,7 @@ header ul {
 .plannings h3 {
     margin-top: -15px;
     font-size: 25px;
+    color: white;
 }
 
 .plannings p {
@@ -260,9 +256,9 @@ header ul {
     padding: 40px;
 }
 
-/* .app {
-    margin-top: 200px;
-} */
+.app  h3 {
+    color: #111111;
+}
 /*-------------------
    RESPONSIVE
 -------------------*/
@@ -276,7 +272,7 @@ header ul {
 SECTION TESTIMONIALS
 -------------------*/
 #testimonials {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #testimonials .text {
@@ -438,33 +434,33 @@ SECTION BENEFITS
 /*-------------------
   SECTION STARTED
 -------------------*/
-#started {
+.started {
     text-align: center;
     padding: 40px;
     background-color: #9792e4;
 }
 
-#started h1 {
+.started h1 {
     font-size: 60px;
     color: #fdc15f;
     margin: 15px;
 }
 
-#started p, h2, a {
+main .started p, a, h2 {
     color: #ffffff;
     margin: 20px;
 }
 
-#started a {
+.started a {
     margin-left: 0;
-}
+}  
 
-#started p:first-child {
+.started p:first-child {
     color: #bfbcee;
     margin-bottom: -5px;
 }
 
-#started p {
+.started p {
     font-size: 13px;
 }
 
