@@ -208,7 +208,6 @@ header ul {
 
 .plannings .card {
     background-color: #ffffff;
-    height: 100%;
     padding: 20px;
     border-radius: 40px;
     text-align: center;
@@ -230,7 +229,12 @@ header ul {
 
 .plannings .col {
     width: 50%;
-    padding: 50px;
+    padding: 100px;
+}
+
+.plannings .col:last-child{
+    display: flex;
+    align-items: flex-end;
 }
 
 .plannings h3 {
